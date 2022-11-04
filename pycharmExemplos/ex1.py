@@ -1,0 +1,10 @@
+nome = input ('qual é o seu nome?')
+print ('Olá,', nome, '! Prazer em te conhecer!')
+Dia = input('qual é o dia do seu nascimento?')
+Mes = input ('qual é o mês do seu nascimento?')
+Ano = input ('qual é o ano do seu nascimento?')
+print ('Você nasceu no dia',Dia , Mes, Ano, '. Correto?')
+n1 = int(input('Digite um número: '))
+n2 = int(input('Digite mais um número: '))
+s = n1 + n2
+print('A soma entre {} e {} vale {}'.format(n1, n2, s))
